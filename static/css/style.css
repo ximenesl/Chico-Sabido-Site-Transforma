@@ -41,7 +41,9 @@
 }
 
 body{
-    background: linear-gradient(to bottom,  #0F0C59 ,#3620DE, #2C1EBE, #1A3C7D, #154360);
+    background-image: url('/static/imgs/IMG_6457.PNG');
+    background-size: 300px 300px;
+    background-attachment: cover;
     color: #fff;
 }
 
@@ -72,7 +74,7 @@ main{
     height: 60px;
     width: 100%;
     z-index: 999;
-    background-color: #FF7EC7;
+    background-image: url('/static/imgs/IMG_6455.PNG');
 }
 
 .nav{
@@ -112,7 +114,7 @@ main{
         top: 0;
         right: -100%;
         bottom: 0;
-        background-color: #FF7EC7;
+        background-image: url('/static/imgs/IMG_6458.PNG');
         padding-bottom: 4rem;
         transition: .5s;
         border-left: 1px solid black;
@@ -133,7 +135,7 @@ main{
     border-radius: 20px;
 }
 .nav-list li a:hover{
-    background-color: #3620DE;
+    background-image: url('/static/imgs/IMG_6458.PNG');
     
 }
 
@@ -186,7 +188,7 @@ main{
 /* BACKGROUND HEADER */
 
 .background-header{
-    background-color: #FF7EC7;
+    background-image: url('/static/imgs/IMG_6455.PNG');
 }
 
 
@@ -287,11 +289,11 @@ main{
     border: 0;
     border-radius: 100px;
     cursor: pointer;
-    background: linear-gradient(to bottom,  #D00076 ,#FF7EC7);
+    background-color: #F15A24;
     transition: .3s;
 }
 .btn-saiba-mais a:hover{
-    background: linear-gradient(to top,  #D00076 ,#FF7EC7);
+    background-image: url('/static/imgs/IMG_6459.PNG')
 }
 
 
@@ -380,7 +382,7 @@ margin-bottom: 40px;
 }
 
 .step {
-    background-color: #281C86;
+    background-image: url('/static/imgs/IMG_6460.PNG');
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -403,7 +405,7 @@ margin-bottom: 40px;
 }
 
 .step:hover{
-    background-color: #FF7EC7;
+    background-image: url('/static/imgs/IMG_6461.PNG');
 }
 
 
@@ -472,11 +474,11 @@ margin-bottom: 40px;
     border: 0;
     border-radius: 100px;
     cursor: pointer;
-    background: linear-gradient(to bottom,  #D00076 ,#FF7EC7);
+    background-color: #BF498A;
     transition: .3s;
 }
 #all-images:hover{
-    background: linear-gradient(to top,  #D00076 ,#FF7EC7);
+    background-color: #63A66D;
 }
 
 /* Video */
@@ -566,7 +568,7 @@ margin-bottom: 40px;
 .worker-item .worker-social i{
     font-size: 2rem;
     cursor: pointer;
-    color: #FF7EC7;
+    color: #E1344F;
 }
 .worker-item h4{
     font-size: 1.4rem;
@@ -578,9 +580,9 @@ margin-bottom: 40px;
 }
 
 #filter{
-    background-color: #FF7EC7;
-    border: 1px solid #3620DE;
-    color: #2C1EBE;
+    background-color: #FECF69;
+    border: 1px solid #FFFFFF;
+    color: #8DA451;
     cursor: pointer;
     width: 150px;
     font-size: 1rem;
@@ -594,7 +596,7 @@ margin-bottom: 40px;
 }
 
 .slider{
-    background-color: rgb(86, 86, 236);
+    background-color: #74B4D1;
     width: 100%;
     height: 400px;
     margin-top: 1rem;
@@ -694,11 +696,11 @@ footer {
 
 ::-webkit-scrollbar{
     width: 0.6rem;
-    background: #154360;
+    background: #2D2D2D;
 }
   
 ::-webkit-scrollbar-thumb{
-    background: #FF7EC7;
+    background: #E1344F;
     border-radius: .5rem;
 }
 
