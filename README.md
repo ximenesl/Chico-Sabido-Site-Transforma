@@ -14,11 +14,11 @@ CSS3
 
 JavaScript
 
-Vercel/Netlify (Hospedagem)
+Vercel (Hospedagem)
 
 <h3>Como Acessar</h3>
 
-[Link 1](http://chico-sabido-site-transforma.vercel.app))
+[Link 1](http://chico-sabido-site-transforma.vercel.app)
 
 <h3>Repositório do Chico Sabido</h3>
 
