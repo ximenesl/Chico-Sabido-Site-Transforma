@@ -299,10 +299,10 @@ main{
 
 #chico{
     position: absolute;
-    width: 350px;
+    width: 280px;
     height: auto;
     bottom: 0px;
-    left: 50%;
+    left: 53%;
     transform: translateX(-50%);
 }
 
