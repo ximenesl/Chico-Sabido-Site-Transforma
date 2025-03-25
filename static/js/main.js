@@ -115,7 +115,7 @@ const swiper = new Swiper('.swiper', {
 // COMO O CHICO ENXERGA O MUNDO 
 
 const getImages = async (num) => {
-    const response = await fetch(`https://visao.pythonanywhere.com/imagens/${num}`);
+    const response = await fetch(`https://visao.pythonanywhere.com/imagenstransforma/${num}`);
     const data = await response.json();
     return data;
 };
