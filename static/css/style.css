@@ -289,7 +289,7 @@ main{
     border: 0;
     border-radius: 100px;
     cursor: pointer;
-    background-color: #F15A24;
+    background-color: #D33245;
     transition: .3s;
 }
 .btn-saiba-mais a:hover{
@@ -568,7 +568,7 @@ margin-bottom: 40px;
 .worker-item .worker-social i{
     font-size: 2rem;
     cursor: pointer;
-    color: #E1344F;
+    color: #D33245;
 }
 .worker-item h4{
     font-size: 1.4rem;
