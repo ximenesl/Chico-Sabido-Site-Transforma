@@ -1,5 +1,5 @@
 const getImages = async () => {
-    const response = await fetch(`https://visao.pythonanywhere.com/imagens/all`);
+    const response = await fetch(`https://visao.pythonanywhere.com/imagenstransforma/all`);
     
     const data = await response.json();
     console.log(data)
