@@ -28,7 +28,7 @@
 
 .section{
     padding: 4.5rem 0 2rem;
-    color: #e2543e;
+    color: ##ffffff;
 }
 
 .section-banner{
@@ -259,6 +259,7 @@ main{
     text-align: center;
     font-size: 4rem;
     margin-top: 2.25rem;
+    color: #e2543e;
     text-shadow: 4px 4px 5px #262223;
 }
 #banner h2 {
