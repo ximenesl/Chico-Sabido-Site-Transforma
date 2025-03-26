@@ -826,7 +826,7 @@ footer {
     }
 
     .logos img {
-        max-width: 70%;
+        max-width: 35%;
     }
 }
 @media(max-width: 600px){
