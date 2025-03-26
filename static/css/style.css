@@ -537,7 +537,7 @@ margin-bottom: 40px;
 .worker-header #filter{
     padding: 8px;
     border-radius: 100px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .workers-items{
