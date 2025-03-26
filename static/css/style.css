@@ -714,13 +714,12 @@ footer {
 
 .logos {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .logos img {
     max-width: 100%;
