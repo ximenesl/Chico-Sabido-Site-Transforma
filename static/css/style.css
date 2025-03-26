@@ -84,8 +84,10 @@ main{
     justify-content: space-between;
 }
 
-.nav-logo img{
+.nav-logo img {
     width: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 .nav-logo a{
@@ -689,7 +691,7 @@ footer {
 }
 
 .footer-content img{
-    width: 10% !important;
+    width: 50% !important;
     height: auto;
 }
 
@@ -892,4 +894,27 @@ footer {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.saiba-mais{
+    font-size: 30px;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D33245;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    background-color: #007aff; /* Cor de fundo ao passar o mouse */
 }
