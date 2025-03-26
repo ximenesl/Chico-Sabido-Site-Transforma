@@ -900,7 +900,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
     .logos img {
-        max-width: 50%;
+        max-width: 25%;
     }
 }
 #how-to-play {
