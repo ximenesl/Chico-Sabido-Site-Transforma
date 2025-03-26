@@ -722,6 +722,11 @@ footer {
     padding-bottom: 20px;
 }
 
+.logos img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media(max-width: 1024px){
     .workers-items{
         grid-template-columns: repeat(3, 1fr);
@@ -814,6 +819,15 @@ footer {
     .worker-header-info p{
         text-align: center !important;
     }
+    .logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logos img {
+        max-width: 70%;
+    }
 }
 @media(max-width: 600px){
 
@@ -885,8 +899,9 @@ footer {
         
         grid-template-columns: repeat(2, 1fr);
     }
-
-    
+    .logos img {
+        max-width: 50%;
+    }
 }
 #how-to-play {
     text-align: center;
