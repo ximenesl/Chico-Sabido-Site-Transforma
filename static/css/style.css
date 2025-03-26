@@ -826,8 +826,8 @@ footer {
     }
 
     .logos img {
-        max-width: 25%;
-        height: auto;
+        width: 80px !important;
+        height: auto !important;
     }
 }
 @media(max-width: 600px){
