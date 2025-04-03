@@ -623,10 +623,19 @@ margin-bottom: 40px;
 }
 
 
-.techs-items{
+.techs-items {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
+    align-items: start;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
 }
 
 .techs-items h5{
